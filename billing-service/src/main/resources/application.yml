@@ -1,0 +1,8 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: billing-service
+appointment:
+  service:
+    url: ${APPOINTMENT_SERVICE_URL:http://localhost:8083}
